@@ -14,7 +14,7 @@ namespace HomeController
     public partial class ConnectionFrame : UserControl
     {
         string dataOut;
-        string dataIn;
+        public int dataIn; // luu nhiet do
         public ConnectionFrame()
         {
             InitializeComponent();
@@ -83,10 +83,17 @@ namespace HomeController
         {
             //dataIn = serialPort1.ReadExisting();
             //string line = serialPort1.ReadExisting();
-            int da =serialPort1.ReadChar();
-            string line = da.ToString();
+            //int da = serialPort1.ReadChar();
+            //string line = da.ToString();
+            string line = serialPort1.ReadLine();
+            //MessageBox.Show(line);
             //this.Invoke(new EventHandler(ShowData));
-            this.BeginInvoke(new ShowDataEvent(ShowData), line);
+            if (line != String.Empty)
+            {
+                dataIn = int.Parse(line);
+                this.BeginInvoke(new ShowDataEvent(ShowData), line);
+            }
+            
         }
         private delegate void ShowDataEvent(string line);
         private void ShowData(string line)

@@ -15,21 +15,13 @@ namespace HomeController
         public SensorFrame()
         {
             InitializeComponent();
-            
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            if (progressbarCircleTemp.Value != 100)
-            {
-                progressbarCircleTemp.Value++;
-                tvTempValue.Text = progressbarCircleTemp.Value.ToString() + "C";
-            }
-            else
-            {
-                progressbarCircleTemp.Value=0;
-            }
-        }
+        //private void SensorFrame_Load(object sender, EventArgs e)
+        //{
+        //    progressbarCircleTemp.Value = temp;
+        //    tvTempValue.Text = progressbarCircleTemp.Value.ToString() + "C";
+        //}
 
     }
 }

@@ -70,6 +70,8 @@ namespace HomeController
             SidePanel.Show();
             SidePanel.Height = btnViewSensor.Height;
             SidePanel.Top = btnViewSensor.Top;
+            sensorFrame1.progressbarCircleTemp.Value = connectionFrame1.dataIn;
+            sensorFrame1.tvTempValue.Text = sensorFrame1.progressbarCircleTemp.Value.ToString() + " C";
             sensorFrame1.BringToFront();
         }
 
@@ -80,9 +82,10 @@ namespace HomeController
             introductionFrame1.BringToFront();
         }
 
-            
-
-
-       
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            sensorFrame1.progressbarCircleTemp.Value = connectionFrame1.dataIn;
+            sensorFrame1.tvTempValue.Text = sensorFrame1.progressbarCircleTemp.Value.ToString() + " C";
+        }
     }
 }

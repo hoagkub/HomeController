@@ -51,7 +51,6 @@
             this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2CircleProgressBar5 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.progressbarCircleTemp.SuspendLayout();
             this.guna2CircleProgressBar1.SuspendLayout();
             this.guna2CircleProgressBar2.SuspendLayout();
@@ -90,7 +89,7 @@
             this.tvTempValue.ForeColor = System.Drawing.Color.OrangeRed;
             this.tvTempValue.Location = new System.Drawing.Point(29, 42);
             this.tvTempValue.Name = "tvTempValue";
-            this.tvTempValue.Size = new System.Drawing.Size(43, 22);
+            this.tvTempValue.Size = new System.Drawing.Size(48, 24);
             this.tvTempValue.TabIndex = 3;
             this.tvTempValue.Text = "34 C";
             // 
@@ -115,7 +114,7 @@
             this.tvTempTitle.ForeColor = System.Drawing.Color.White;
             this.tvTempTitle.Location = new System.Drawing.Point(192, 342);
             this.tvTempTitle.Name = "tvTempTitle";
-            this.tvTempTitle.Size = new System.Drawing.Size(101, 22);
+            this.tvTempTitle.Size = new System.Drawing.Size(114, 24);
             this.tvTempTitle.TabIndex = 2;
             this.tvTempTitle.Text = "Temperature";
             // 
@@ -126,7 +125,7 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(333, 342);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(142, 22);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(159, 24);
             this.guna2HtmlLabel1.TabIndex = 4;
             this.guna2HtmlLabel1.Text = "Gas concentration";
             // 
@@ -159,7 +158,7 @@
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.OrangeRed;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(40, 42);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(15, 22);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(16, 24);
             this.guna2HtmlLabel2.TabIndex = 3;
             this.guna2HtmlLabel2.Text = "0";
             // 
@@ -170,7 +169,7 @@
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(510, 342);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(109, 22);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(120, 24);
             this.guna2HtmlLabel3.TabIndex = 5;
             this.guna2HtmlLabel3.Text = "Soil Moisture";
             // 
@@ -204,7 +203,7 @@
             this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.OrangeRed;
             this.guna2HtmlLabel4.Location = new System.Drawing.Point(29, 42);
             this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(45, 22);
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(50, 24);
             this.guna2HtmlLabel4.TabIndex = 3;
             this.guna2HtmlLabel4.Text = "34 %";
             // 
@@ -215,7 +214,7 @@
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel5.Location = new System.Drawing.Point(518, 171);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(80, 22);
+            this.guna2HtmlLabel5.Size = new System.Drawing.Size(89, 24);
             this.guna2HtmlLabel5.TabIndex = 11;
             this.guna2HtmlLabel5.Text = "Max Wind";
             // 
@@ -226,7 +225,7 @@
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel6.Location = new System.Drawing.Point(363, 171);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            this.guna2HtmlLabel6.Size = new System.Drawing.Size(73, 22);
+            this.guna2HtmlLabel6.Size = new System.Drawing.Size(80, 24);
             this.guna2HtmlLabel6.TabIndex = 9;
             this.guna2HtmlLabel6.Text = "UV index";
             // 
@@ -260,7 +259,7 @@
             this.guna2HtmlLabel7.ForeColor = System.Drawing.Color.OrangeRed;
             this.guna2HtmlLabel7.Location = new System.Drawing.Point(19, 39);
             this.guna2HtmlLabel7.Name = "guna2HtmlLabel7";
-            this.guna2HtmlLabel7.Size = new System.Drawing.Size(61, 22);
+            this.guna2HtmlLabel7.Size = new System.Drawing.Size(68, 24);
             this.guna2HtmlLabel7.TabIndex = 3;
             this.guna2HtmlLabel7.Text = "12km/h";
             // 
@@ -294,7 +293,7 @@
             this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.OrangeRed;
             this.guna2HtmlLabel8.Location = new System.Drawing.Point(41, 42);
             this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(14, 22);
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(15, 24);
             this.guna2HtmlLabel8.TabIndex = 3;
             this.guna2HtmlLabel8.Text = "8";
             // 
@@ -305,7 +304,7 @@
             this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel9.Location = new System.Drawing.Point(205, 171);
             this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(75, 22);
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(82, 24);
             this.guna2HtmlLabel9.TabIndex = 7;
             this.guna2HtmlLabel9.Text = "Humidity";
             // 
@@ -339,15 +338,9 @@
             this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.OrangeRed;
             this.guna2HtmlLabel10.Location = new System.Drawing.Point(29, 42);
             this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(46, 22);
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(50, 24);
             this.guna2HtmlLabel10.TabIndex = 3;
             this.guna2HtmlLabel10.Text = "30 %";
-            // 
-            // timer1
-            // 
-            this.timer1.Enabled = true;
-            this.timer1.Interval = 50;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // SensorFrame
             // 
@@ -390,11 +383,11 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
-        private Guna.UI2.WinForms.Guna2CircleProgressBar progressbarCircleTemp;
+        public Guna.UI2.WinForms.Guna2CircleProgressBar progressbarCircleTemp;
         private Guna.UI2.WinForms.Guna2ColorTransition guna2ColorTransition1;
         private Guna.UI2.WinForms.Guna2ColorTransition guna2ColorTransition2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel tvTempValue;
+        public Guna.UI2.WinForms.Guna2HtmlLabel tvTempValue;
         private Guna.UI2.WinForms.Guna2HtmlLabel tvTempTitle;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar1;
@@ -411,6 +404,5 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel9;
         private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar5;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
-        private System.Windows.Forms.Timer timer1;
     }
 }
